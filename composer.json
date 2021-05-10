@@ -1,0 +1,22 @@
+{
+  "name": "net-passport/net-passport",
+  "type": "library",
+  "description": "The single line sign on library for youuuu :)",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tht7",
+      "email": "itays@h-erp.co.il",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "lcobucci/jwt": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NetPassport\\": "src"
+    }
+  }
+}
